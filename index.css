@@ -1,7 +1,78 @@
-body{
-    background-color: chocolate;
+body,html{
+  height: 100%;
+  margin: 0;
 }
 
-h4{
-    color: blue;
+.top{
+  background-image: url("urusha.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:50vh;
 }
+.navbar {
+   overflow: hidden;
+  /* background-color:darkgrey;  */
+}
+
+.navbar p{
+  float: left;
+  color:whitesmoke;
+  font-size: 16px;
+  padding: 0px 16px;
+}
+
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color:whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: whitesmoke;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color:rosybrown; 
+  /* opacity: 0.6; */
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:skyblue;
+  /* min-width: 160px; */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+} 
