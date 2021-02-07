@@ -1,6 +1,8 @@
 body,html{
   height: 100%;
   margin: 0;
+  font-family: sans-serif;
+  font-weight: bolder;
 }
 
 .top{
@@ -8,18 +10,25 @@ body,html{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height:50vh;
+  height:75vh;
 }
 .navbar {
    overflow: hidden;
   /* background-color:darkgrey;  */
 }
 
-.navbar p{
+#user{
   float: left;
   color:whitesmoke;
   font-size: 16px;
   padding: 0px 16px;
+}
+
+#about{
+  display: inline-block;
+  position: absolute;
+  top: 60%;
+  color: whitesmoke;
 }
 
 .navbar a {
@@ -37,6 +46,7 @@ body,html{
 }
 
 .dropdown .dropbtn {
+  font-weight: bolder;
   font-size: 16px;  
   border: none;
   outline: none;
@@ -55,15 +65,17 @@ body,html{
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color:skyblue;
-  /* min-width: 160px; */
+  background-color: initial;
+  /* background-color:skyblue; */
+  min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
   float: none;
-  color: black;
+  color:whitesmoke;
+  background-color: inherit;
   padding: 12px 16px;
   display: block;
   text-align: left;
@@ -76,3 +88,33 @@ body,html{
 .dropdown:hover .dropdown-content {
   display: block;
 } 
+
+
+/* @media screen and (min-width:960px)
+{
+  .top{
+    height:50vh;
+  }
+}*/
+
+@media  only screen and (min-width:255px)
+{
+  .navbar {
+    overflow: hidden;
+   /* background-color:darkgrey;  */
+ }
+  .top{
+    height:40vh;
+  }
+} 
+
+@media only screen and (min-width : 992px)
+{
+  .navbar {
+    overflow: hidden;
+   /* background-color:darkgrey;  */
+ }
+  .top{
+    height:75vh;
+  }
+}
