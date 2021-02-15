@@ -25,7 +25,7 @@ body,html{
 #user{
   float: left;
   color:whitesmoke;
-  font-size: 16px;
+  font-size: 20px;
   padding: 0px 16px;
 }
 
@@ -39,7 +39,7 @@ body,html{
 
 .navbar a {
   float: right;
-  font-size: 16px;
+  font-size: 20px;
   color:whitesmoke;
   text-align: center;
   padding: 14px 16px;
@@ -53,7 +53,7 @@ body,html{
 
 .dropdown .dropbtn {
   font-weight: bolder;
-  font-size: 16px;  
+  font-size: 20px;  
   border: none;
   outline: none;
   color: whitesmoke;
@@ -107,7 +107,7 @@ body,html{
 
 .education-section{
     font-family: sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     color: black;
     font-style: italic;
     display: block;
@@ -128,7 +128,7 @@ body,html{
 
 .experience-section{
   font-family: sans-serif;
-  font-size: 12px;
+  font-size: 16px;
   color: black;
   font-style: italic;
   display: block;
